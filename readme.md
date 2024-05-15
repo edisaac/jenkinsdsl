@@ -18,3 +18,8 @@ Use the provided DSL script
 Agregar el contenido de 01primerdsl.groovy
 
 
+
+
+Para evitar las aprobaciones
+Panel de Control>Administrar Jenkins>Security
+Enable script security for Job DSL scripts
