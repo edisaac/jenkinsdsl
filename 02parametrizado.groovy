@@ -1,11 +1,10 @@
-pipelineJob('Job con Jenkins File 1') {
+pipelineJob('jenkins.job.parametrizado 2') {
   definition {
     cpsScm {
       scm {
         git {
           remote {
             url("https://github.com/edisaac/jenkins.job.parametrizado.git")
-            //credentials('gitlab-token')
           }
           branch('main')
         }
